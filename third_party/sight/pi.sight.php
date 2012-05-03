@@ -128,7 +128,7 @@ class Sight {
 			$con_name = 'Normal contrast';
 		}
 		
-		$html = "<a href=\"".$this_url.$con_version."\" />".$con_name."</a>";
+		$html = "<a href=\"".$this_url.$con_version."\">".$con_name."</a>";
 
 		return $html;
 	}
